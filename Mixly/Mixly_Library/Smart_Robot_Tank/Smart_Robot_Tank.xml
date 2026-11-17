@@ -1,0 +1,99 @@
+
+type="company" 
+block="block/Smart_Robot_Tank.js"
+generator="generator/Smart_Robot_Tank.js" 
+language="language/Smart_Robot_Tank"
+lib="Smart_Robot_Tank"
+hardware="hardware/arduino"
+media="media/Smart_Robot_Tank" 
+
+
+<script type="text/javascript" src="../../blocks/company/Smart_Robot_Tank.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Smart_Robot_Tank.js"></script>
+<category id="LA" name="Smart_Robot_Tank" colour="20">
+
+<!--          Smart_Robot_Tank              -->
+
+
+		<block type="tank_FRONT">
+			<value name="speed_F">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="tank_BACK">
+			<value name="speed_B">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="tank_LEFT">
+			<value name="speed_L">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="tank_TURN_LEFT">
+			
+		</block>
+
+		<block type="tank_RIGHT">
+			<value name="speed_R">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="tank_TURN_RIGHT">
+			
+		</block>
+
+		<block type="tank_STOP">
+			
+		</block>
+        
+		<!--          Smart_Robot_Tank servo          -->    
+		<block type="Tank_SG90servo">
+			
+			<value name="angle">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		
+		<!--          Smart_Robot_Tank_ir_receiver               -->
+		<block type="Tank_ir_receiver">
+			
+		</block>
+
+        <!--          Smart_Robot_Tank Ultrasonic               -->
+		<block type="Tank_Ultrasonic">
+			
+		</block>
+		
+        
+		<!--              Infrared obstacle avoidance sensor              -->
+		<block type="Tank_IR_Avoidance">
+			
+		</block>
+
+        
+         <!--          Smart_Robot_Tank_bluetooth             -->
+		<block type="Tank_bluetooth">
+			
+		</block>
+
+
+
+<!--          Smart_Robot_Tank             -->
+
+
+</category>
